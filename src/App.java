@@ -1,7 +1,5 @@
 import java.math.BigDecimal;
-import java.time.DateTimeException;
 import java.time.LocalDate;
-import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
@@ -131,14 +129,8 @@ public class App {
 
         } catch (NumberFormatException e) {
             System.out.println("O campo código só aceita números.");
-        } catch (DateTimeParseException e) {
-            System.out.println("Formato da data inserida é inválida.");
-        } catch (StringIndexOutOfBoundsException e) {
-            System.out.println("Opção inválida.");
         } catch (InputMismatchException e) {
             System.out.println("Entrada de dados inválida.");
-        } catch (DateTimeException e) {
-            System.out.println("A data deve obedecer a formatação DD MM AAAA");
         }
 
     }
