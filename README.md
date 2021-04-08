@@ -12,3 +12,9 @@ The workspace contains two folders by default, where:
 ## Dependency Management
 
 The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+
+Trabalho final para a Disciplina de Fundamentos do Desenvolvimento em JAVA. 
+
+Programa para cadastrar, editar, exibir e deletar Produtos e Cotações. Os tratamentos de Erros são Simples, pois estão em fase de aprendizado. 
+
+Menu intuitivo não requer muitas intruções fora do programa. 
